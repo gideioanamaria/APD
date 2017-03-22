@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1490218868 source:d:\facultate\calculatoare anul 3\calculatoare sem 2\algoritmi paraleli si distribuiti\laboratoare\openmp_matrixthread\main.c
+	<omp.h>
+	<stdio.h>
+	<stdlib.h>
+
