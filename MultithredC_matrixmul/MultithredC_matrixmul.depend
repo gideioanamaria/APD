@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1490010096 source:d:\facultate\calculatoare anul 3\calculatoare sem 2\algoritmi paraleli si distribuiti\laboratoare\multithredc_matrixmul\main.c
+	<stdio.h>
+	<pthread.h>
+	<stdlib.h>
+
