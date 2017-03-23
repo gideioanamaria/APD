@@ -18,7 +18,7 @@ int main (int argc, char *argv[])
 
     chunk = 2;                 //numarul de iteratii pe care le face fiecare thread
 
-    omp_set_num_threads(3);    //seteaza numarul de thred-uri
+    omp_set_num_threads(8);    //seteaza numarul de thred-uri
 
     //Inceputul regiunii paralele
     //Shared : datele sunt partajate-vizibile si accesibile prin toate threadurile momentan
