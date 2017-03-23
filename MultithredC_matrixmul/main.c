@@ -11,9 +11,10 @@ int matrice_Rezultat[500][500];
 int lA, cA;       // lA,cA - numarul de lini si coloane din matricea A
 int lB, cB;       // lB,cB - numarul de lini si coloane din matricea B
 
-
+//functia care va fi executata de toate thread-urile
 void *Inmultire_Matrici(void *param)
 {
+
     int i,j,k;
 
     for (i = 0; i < lA; i++)
@@ -34,7 +35,6 @@ void *Inmultire_Matrici(void *param)
 int main()
 {
     pthread_t thread[nrThread];
-    int tid[nrThread];
 
 	int i, j;
 
@@ -103,8 +103,7 @@ int main()
     {
         //Vom crea nrThread de thread-uri pentru a inmulti cele doua matrici
         for (i = 0; i < nrThread; i++) {
-            tid[i] = i;
-            pthread_create(&thread[i], NULL, Inmultire_Matrici, &tid[i]);
+            pthread_create(&thread[i], NULL, Inmultire_Matrici, (void *)i);
         }
 
         for (i = 0; i < nrThread; i++)
@@ -129,6 +128,8 @@ int main()
             printf("\n");
         }
     }
+
+    pthread_exit(NULL);
 
 	return 0;
 
