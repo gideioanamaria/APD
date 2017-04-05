@@ -1,0 +1,13 @@
+﻿Build started 4/5/2017 10:24:32 PM.
+     1>Project "C:\Users\Oana\Desktop\mpi\ARRAYmpi\ARRAYmpi\ARRAYmpi.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft HPC Pack 2008 R2\Inc" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt array.cpp
+         array.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Oana\Desktop\mpi\ARRAYmpi\Debug\ARRAYmpi.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft HPC Pack 2008 R2\Lib\i386" msmpi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Oana\Desktop\mpi\ARRAYmpi\Debug\ARRAYmpi.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Oana\Desktop\mpi\ARRAYmpi\Debug\ARRAYmpi.lib" /MACHINE:X86 Debug\array.obj
+         ARRAYmpi.vcxproj -> C:\Users\Oana\Desktop\mpi\ARRAYmpi\Debug\ARRAYmpi.exe
+     1>Done Building Project "C:\Users\Oana\Desktop\mpi\ARRAYmpi\ARRAYmpi\ARRAYmpi.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.97
